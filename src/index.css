@@ -7,8 +7,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Cart Item */
+/* Cart Wrapper */
+.cart {
+  display: flex;
+  flex-direction: column;
+}
 
+/* Cart Item */
 .cart-item {
   /* inline-flex makes the flex container display inline */
   display: inline-flex;  
